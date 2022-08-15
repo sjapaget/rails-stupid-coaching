@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.question p, .answer p {
+font-style: italic;
+}
+
+
+.question, .answer {
+  border-left: lightgrey solid 5px;
+}
+
+.answer {
+  background-color: beige;
+}

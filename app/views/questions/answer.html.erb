@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class=" question p-1 mt-3">
+    <h4><%= @question %></h4>
+    <p>- You</p>
+  </div>
+
+  <div class="answer p-1 mt-3">
+    <h4><%= @coach_response %></h4>
+    <p>- Your Coach</p>
+  </div>
+
+  <%= link_to("Ask another one", ask_path) %>
+
+</div>
